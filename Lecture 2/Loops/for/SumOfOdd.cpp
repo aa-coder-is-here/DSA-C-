@@ -5,7 +5,8 @@ int main(){
     cout << "Enter the number: ";
     cin >> n;
     for(int i = 1 ; i<= n;i+=2){
-        sum += i;
+        if(i%2 != 0)
+          sum += i;
     }
     cout << "The sum of odd numbers are: " << sum;
     
