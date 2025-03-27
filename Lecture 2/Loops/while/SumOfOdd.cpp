@@ -7,11 +7,8 @@ int main(){
     while(i <= n){
         if(i%2 != 0){
             sum += i;
-            i++;
-        }else{
-            i++;
-            continue;
         }
+        i++;
     }
     cout << "The sum is = " << sum;
     
